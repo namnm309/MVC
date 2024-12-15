@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>
+            Login Page 
+        </h1>
+        <form action="LoginServlet" method="POST">
+            Username <input type="text" name="txtUsername" value="" /><br> <!-- control nhập liệu username ,type text -->
+            Password <input type="password" name="txtPassword" value="" /><br> <!-- control nhập liệu password,type password --> 
+            <input type="submit" value="Login" name="btAction"  /><!--Label:Login , name: btAction,type: submit -->
+            <input type="reset" value="Reset" /></br><!--ko cần đặt tên vì 0 phải parameter đặt làm gì -->
+            <a href="ShowCartListServlet">Book Mark</a></br>
+            <a href="signUp.html">Sign Up</a>
+
+
+        </form>
+
+    </body>
+</html>

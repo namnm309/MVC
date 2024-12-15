@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Shopping Cart</h1>
+        <form action="DispatchServlet">
+            Choose Book <select name="ddlBook">
+                        <option>Java</option>
+                        <option>c++</option>
+                        <option>C</option>
+                        <option>C#</option>
+                        <option>Python</option>
+                        <option>JavaScript</option>
+                        <option>HTML</option>
+                        <option>CSS</option>
+                        <option>SQL</option>
+            </select><br>
+            Quantity <input type="number" name="txtQuantity" value="1" min="1" /><br>
+            <input type="submit" value="Add book to your cart" name="btAction" />
+            <input type="submit" value="View your cart" name="btAction" />
+        </form>
+    </body>
+</html>
